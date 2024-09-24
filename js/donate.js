@@ -81,7 +81,8 @@ document.getElementById('btn-donate-noyakhali').addEventListener('click', functi
 
         
         document.getElementById('donate-noyakhali').value = '';
-        alert("Success");
+        //alert("Success");
+        document.getElementById('my_modal_4').showModal();
 
         addHistory('total-donation-noyakhali', 'noyakhali-title');
 
@@ -129,7 +130,8 @@ document.getElementById('btn-donate-feni').addEventListener('click', function ()
 
     
     if (totalBalance >= inputFormValue) {
-        alert("Success");
+        //alert("Success");
+        document.getElementById('my_modal_4').showModal();
 
         
         const totalDonationGiven = totalDonation('donate-feni', 'total-donation-feni');
@@ -183,7 +185,8 @@ document.getElementById('btn-donate-qouta').addEventListener('click', function (
 
         
         document.getElementById('donate-qouta').value = '';
-        alert("Success");
+        //alert("Success");
+        document.getElementById('my_modal_4').showModal();
         addHistory('total-donation-quota', 'quota-title');
 
     } 
